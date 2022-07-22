@@ -12,6 +12,36 @@ variable "config" {
 
   default = [
     {
+        name = "network-test-asia-east1-a"
+        zone = "asia-east1-a"
+        machine_type = "e2-small"
+    },
+    {
+        name = "network-test-asia-east1-b"
+        zone = "asia-east1-b"
+        machine_type = "e2-small"
+    },
+    {
+        name = "network-test-asia-east1-c"
+        zone = "asia-east1-c"
+        machine_type = "e2-small"
+    },
+    {
+        name = "network-test-asia-east2-a"
+        zone = "asia-east2-a"
+        machine_type = "e2-small"
+    },
+    {
+        name = "network-test-asia-east2-b"
+        zone = "asia-east2-b"
+        machine_type = "e2-small"
+    },
+    {
+        name = "network-test-asia-east2-c"
+        zone = "asia-east2-c"
+        machine_type = "e2-small"
+    },
+    {
         name = "network-test-asia-northeast1-a"
         zone = "asia-northeast1-a"
         machine_type = "e2-small"
@@ -21,13 +51,11 @@ variable "config" {
         zone = "asia-northeast1-b"
         machine_type = "e2-small"
     },
-    /*
     {
         name = "network-test-asia-northeast1-c"
         zone = "asia-northeast1-c"
-        machine_type = "e2-micro"
-    }
-    */
+        machine_type = "e2-small"
+    },
     {
         name = "network-test-asia-northeast2-a"
         zone = "asia-northeast2-a"
